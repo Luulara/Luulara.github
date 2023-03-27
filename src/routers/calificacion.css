@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.me-auto{
+    max-width: 1000px;
+}
+.container-image-principal{
+    color: #000;
+    text-align: center;
+}
+.container-historias{
+    max-width: 1000px;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    text-align:left;
+}
+
+.container-historia-imagen img{
+        width: 450px;
+        display: flex;
+        margin: 20px;
+        float: right;
+}
+
+.container-valores {
+    display:flex;
+    text-decoration: none;
+    align-content: center;
+}
+
+.container-valores-mision{
+    width: 400px;
+    height: 320px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width:500px){
+    .container{
+        position:relative;
+    }
+    .me-auto{
+        position: static;
+        margin: 80px 0;
+    }
+    
+    footer a{
+        margin: 10px 20px;
+    }
+    .container-historia-text{
+        font-size: 30px;
+    }
+    header .text h3{
+        font-size: 18px;
+    }
+    .container-image-principal{
+        width: 100%;
+        position: relative;
+    }
+    .container-historia-imagen img{
+        width: 100%;
+        position: relative;
+    }
+    .container-valores{
+        position: relative;
+        width: 100%;
+        transform: translate(0px, 0) ;
+    }
+    .container-valores-mision{
+        position: relative;
+        width: 100%;
+        transform: translate(0px, 0) ;
+    }
+  }
+  
+   @media screen and (max-width:400px){
+    footer{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .container-valores{
+        width: 100%;
+        text-align: center;
+    }
+  } 
